@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   .login-details{
+    justify-content: center;
+   }
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-size: 100%;
+      
+    }
+    .wrapper{
+     display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background-color:transparent;
+    border:1px solid;
+    backdrop-filter: blur(10px);
+    border-color: aliceblue;
+    border-radius: 6px;  
+    }
+    .login-box{
+      padding-bottom: 25px;
+    }
+    .login-character{
+      padding-left:110px ;
+      color:white;
+      font-family: sans-serif;
+    } 
+    .login-character1{
+      color: aliceblue;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    .bottom-container{
+      display: flex;
+      justify-content: center;
+    }
+        
+    .email-box{ 
+      height: 40px; 
+      width : 300px;
+      border-radius: 50px;
+      border-width:1px ;
+      background: transparent;
+      border-color: aliceblue;
+      
+    }
+    .password-box{
+      height: 40px; 
+      width : 300px;
+      border-radius: 50px;
+      border-width:1px ;
+      background: transparent;
+      border-color: aliceblue
+    }
+    .login{
+      width: 300px;
+      height: 40px;
+      border-radius: 50px;
+      border-width:1px;
+      justify-content: center;
+      border: none;
+      
+    }
+    .login:hover{
+      opacity: 0.7;
+      cursor: pointer;
+      
+    }
+    .login-character2{
+      color: aliceblue;
+      font-family: sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .login-character2:hover{
+      text-decoration:underline ;
+    }
+    .login:active{
+      color: rgb(0, 0, 0)
+    }
+    .login-button-div{
+      padding-top: 15px ;
+      padding-bottom: 20px;
+    }
+  
+
+  </style>
+</head>
+<body class="background" background="T7.jpg">
+ <div class="wrapper">
+  <form class="login-details">
+    <div><h1 class="login-character">Login</h1> </div>
+   <div class="login-box">
+     <input class="email-box" type="email" placeholder="   Username">
+   </div>
+   <div style="padding-bottom: 10px;">
+     <input class="password-box" type ="password" placeholder="   Password">
+   </div>   
+   <div>
+     <input class="checkbox" type="checkbox" style="checkox:hover{cursor: pointer;}"> <span class="login-character1">remebmer me</span> <a href="forgot password page.html" class="login-character2" style="padding-left: 60px;">Forgot Password?<a>
+   </div>
+   <div class="login-button-div"><button class="login"><span style="font-size: large;">Log in</span></button></div>
+   <div class="bottom-container"><span class="login-character1">Don't have an account</span>  <a href="Sign Up page.html" class="login-character2" ">Sign Up</a></div>
+  
+ </form>
+ 
+ </div> 
+</body>
+</html>
