@@ -63,6 +63,7 @@ print(bin(78))# 01100011 converts number to binary
 print(hex(78))#0x10b converts number  to hexadecimal
 
 
-
+is_true = True
+is_false = False
 
 
