@@ -21,6 +21,7 @@ my_list[6]= 'joy' #used to redeclare an index
 print(my_list)
 my_list.append(1) # used to add values to the end of a list
 print (my_list)
+print(my_list[1] == 'jeremy')
 my_list.insert(7, "joel")
 print( my_list)
 my_list.pop(-1)
@@ -35,7 +36,7 @@ fruit_list = ['pineapple','apple','mango','orange','guava','grapes', 'pear',]
 print(fruit_list[2])
 fruit_list.insert(7,'corn')
 print(fruit_list)
-print(fruit_list[2:5])
+print(fruit_list[2:5]) #(slicing) used to cut6 out a group of data from the whole
 print(fruit_list.pop(-1)) #when using remove you have to use the data stored in the variable. while pop uses the index.
 print(len(fruit_list))
 '''
@@ -59,7 +60,7 @@ turple4 = (4,5,6)
 turple5 = (7,8,9)
 print(turple1 + turple2 + turple3 )
 fruit_turple = ('pineapple','apple','mango','orange','guava','grapes', 'pear')
-list_convert = list(fruit_turple)
+list_convert = list(fruit_turple)#converts tuple to list
 print(list_convert)
-tuple_fruit = tuple(list_convert)
+tuple_fruit = tuple(list_convert)#converts list to tuple
 print(tuple_fruit)
