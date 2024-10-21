@@ -10,7 +10,7 @@ while players_choice != 'quit' :
   print(f'comupter chooses {computer_choice}')
   if players_choice == computer_choice:
     print('tie')
-  elif players_choice == 'rock' and computer_choice == 'scissors' or players_choice and computer_choice =='paper' or players_choice == 'rock' and computer_choice=='paper':
+  elif players_choice == 'rock' and computer_choice == 'scissors' or players_choice== 'scissors' and computer_choice =='paper' or players_choice == 'paper' and computer_choice=='rock':
     print( 'you win')
   else:
     print ('you lose')

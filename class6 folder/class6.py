@@ -37,12 +37,12 @@ for key,value in about_me:
   if (numbers %2 ==0 ) :
     print(numbers)'''
 
-'''classes = ['class1', 'class2', 'class3'] 
+classes = ['class1', 'class2', 'class3'] 
 students = ['student1', 'student2','student3']
 
 for classs in classes :
   for rep in students :
-    print(classs, rep)'''
+    print(classs, rep)
 
 
 sections = [1, 2, 3]
