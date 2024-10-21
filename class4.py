@@ -1,4 +1,6 @@
+from math import *
 #Numbers and operators
+'''
 a = 6 
 b = 5
 d = a + b
@@ -58,17 +60,18 @@ print (not y )
 g = 7
 g+=8
 print(g)
+'''
 
 #Conditional statements
 '''
 if condition:
     Code'''
-
+'''
 if(a>b) : {print('yes a is greater than b') } 
 else:{ print("no b isn't greater than a ")} 
 
 # Write a computer program that would check if your account balance is sufficient enough for a cash trasaction
-'''initial_account_balance= 4382900
+initial_account_balance= 4382900
 withdrawal_amount= int(input( 'Input  withdrawal Amount'))
 account_balance = initial_account_balance - withdrawal_amount
 if (initial_account_balance >= withdrawal_amount) :   #CONDITIONAL STATEMENTS
@@ -109,20 +112,20 @@ if (User_Biodata['password'] == User_Biodata['Confirm password']):  # THIS IS US
 else:
        print('password not matching')
        print('retry')
-'''
 
 
-'''
+
+ 
 Assignment
 |||
 write a pyhton code to check if a python code is even or odd
 write a python code for a grade checker (ckeck a students grade based on their score)
 write python code to check if a number is positive negative or zero
 write python to check if a year is a leap year
-'''
+
 #ASSIGMENT
 #1
-'''
+
 number = int(input('imput number to check if it is an even or odd number '))
 intermidiary1 = number/ 2
 intermidiary = round(intermidiary1)
@@ -134,10 +137,10 @@ else :
 
 
 
-'''
+
              
 
-'''
+
 grade = int(input('what is your grade number'))   
 if (grade >= 70) :
        print ( 'congratulations you have an A')
@@ -152,24 +155,27 @@ elif (grade >= 40 and grade < 45 ) :
 elif (grade >= 0 and grade < 40 ) :
        print ( 'Unfortuately you are coming back next year')                  
 
-'''
-'''
+
+
 number_input = int(input( 'what  number do you want to check its characteristics'))
 if (number_input == 0) :
        print(f'{number_input} is zero')
 elif(number_input > 0 ) : 
        print(f'{number_input} is a positive number') 
 elif(number_input < 0 ) : 
-       print(f'{number_input} is a negative number')   '''
+       print(f'{number_input} is a negative number')   
+'''      
 
 year = int(input('which year do you want to confirm if it is a leap year'))
-output1 = round(year/4)
-output2 = round((year+2))
-output3 = round(output2/4)
+
+year_intermediary1 = n> 0
+year_intermediary2 = year_intermediary1 * 4
  
 
-if (output1*4 == year and (output3*4)-2 == year ) :
+if (year_intermediary2 == year ) :
+      
        print(f'year {year} is a leap year')
 else : 
        print( f'year {year} is not a leap year')        
-         
+       print(year_intermediary1)
+       print(year_intermediary2)

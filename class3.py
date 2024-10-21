@@ -47,4 +47,5 @@ print(joy_details)
 joy_details['password'] = 9323872865 #used for adding variables or editing variables in a dictionary
 del joy_details['email']
 print(joy_details)
+print(joy_details.items())
 
