@@ -29,14 +29,14 @@ def stringUpperCoverter (strin):
 def listCombiner (list1,list2) :
   print(list1+ list2)
   return
-listCombiner([1,2,3,4],[3,6,8,9])'''
-
+listCombiner([1,2,3,4],[3,6,8,9])
+'''
 '''def list_reverser (lis):
   print(lis[::-1]) # [::-1] this is used to reverse a list
   return
 
 list_reverser([1,2,3,4,5])'''
-
+'''
 def quiz () :
   question1 = input('what is left after a collapsed neutron star A blackhole B white dwarf')
   if question1 == 'A' :
@@ -46,9 +46,9 @@ def quiz () :
   else :
     print('input either A or B')
 
-quiz()
+quiz()'''
 
-User_Database = {
+'''User_Database = {
   'Username' : 'jeremy',
 }
   
@@ -71,6 +71,7 @@ User_Registration()
 print(User_Database)
 
   
+passkey = input('enter your password')'''
   
 
 
