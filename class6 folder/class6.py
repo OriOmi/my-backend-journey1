@@ -37,7 +37,7 @@ for key,value in about_me:
   if (numbers %2 ==0 ) :
     print(numbers)'''
 
-classes = ['class1', 'class2', 'class3'] 
+'''classes = ['class1', 'class2', 'class3'] 
 students = ['student1', 'student2','student3']
 
 for classs in classes :
@@ -73,7 +73,7 @@ for record in records:
 count = 0
 while count < 10 :
   print("i love you")
-  count+=1
+  count+=1'''
 
 count = 0
 while count <10:
