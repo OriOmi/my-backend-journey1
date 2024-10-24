@@ -71,8 +71,18 @@ User_Registration()
 print(User_Database)
 
   
-passkey = input('enter your password')'''
-  
+'''
+
+user = {}
+def register() :
+  user_name = input ('enter your username ')
+  if user_name in user :
+    print(' user name already exists')
+  return
+passkey = input('enter your password')
+user ['username']= passkey
+print('registration done')
+
 
 
 
