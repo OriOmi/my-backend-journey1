@@ -1,0 +1,25 @@
+USER_DETAILS = {
+  'email' : 'cresspanda@gmail.com',
+  'password' : 'OriOmi@7'
+}
+
+def auth ():
+  Email = input('input your email')
+
+  while Email != USER_DETAILS['email'] :
+    if Email != USER_DETAILS['email'] :
+      print("Email has'nt been registered")
+      Email = input('input your email')
+    else :
+      break
+  
+  password = input('enter password')
+  while password != USER_DETAILS['password'] :
+    if password != USER_DETAILS['password'] :
+      print("Password not matching")
+      password = input('input your password')
+    else :
+      break
+  return
+
+auth ()

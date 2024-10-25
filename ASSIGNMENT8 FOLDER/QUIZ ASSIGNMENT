@@ -1,0 +1,38 @@
+def quiz () :
+  count = 0
+  print('input either A or B')
+  question1 = input('what is left after a collapsed neutron star A blackhole B white dwarf ')
+  if question1 == 'A' :
+    count +=1
+    print (f'{count}/3')
+  elif question1 == 'B' :
+    print ('wrong')
+    print (f'{count}/3')
+  else :
+    print('invalid Input')
+   
+  question2 = input('Tachyons age in which time direction A Positive B Negative ')
+  print('input either A or B')
+  if question2== 'B' :
+    count +=1
+    print (f'{count}/3')
+  elif question2 == 'A' :
+    print ('wrong')
+    print (f'{count}/3')
+  else :
+    print('Invalid Input')
+  
+  question3 = input('How much energy is needed to reach c A infinite B 100000000J ')
+  print('input either A or B')
+  if question3== 'A' :
+    count +=1
+    print (f'{count}/3')
+    
+  elif question3 == 'B' :
+    print ('wrong')
+    print (f'{count}/3')
+  else :
+    print('Invalid Input')
+  print(f'Your total score is {count}/3')
+  
+quiz()

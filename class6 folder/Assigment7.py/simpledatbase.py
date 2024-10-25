@@ -12,7 +12,7 @@ def User_Registration () :
       if definition2 == User_Database['Username']:
         print('Username already exists!') #code prints this if username already exists 
         User_Database['Username']=input('Input Another Username ')
-      else: #if userame doesnt already exist it automatically exits functiion cause o break statemets
+      else: #if userame doesnt already exist it automatically exits functiion cause of break statemets
         break 
     
   User_Database['Password']=input('Input Password')
