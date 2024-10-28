@@ -8,7 +8,7 @@ print(set_of_numbers)
 list_of_numbers = [2,4,5,6,7,7,778,88,3,24]
 print(list_of_numbers)
 print(set(list_of_numbers))
-set_of_numbers.add('joy')
+set_of_numbers.add()
 print(set_of_numbers)
 print(set_of_numbers.__len__())
 
